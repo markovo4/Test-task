@@ -1,11 +1,12 @@
 import React from "react";
 import PageBaseTemplate from "../../../pageTemplates/PageBaseTemplate/index.js";
+import Hero from "../../../components/main/Hero";
 
 const PageHome = () => {
     return (
         <PageBaseTemplate>
             <main>
-                <div>Home Page</div>
+                <Hero/>
             </main>
         </PageBaseTemplate>
 

@@ -1,0 +1,48 @@
+.section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  position: absolute;
+}
+.section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 80px;
+}
+.section .container .navContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1027px;
+}
+.section .container .navContainer .navLink {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding: 8px;
+}
+.section .container .navContainer .linksContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.section .container .navContainer .buttonGroup .button, .section .container .navContainer .buttonGroup .button:last-of-type {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding: 8px;
+  text-decoration: underline;
+}
+.section .container .navContainer .buttonGroup .button:last-of-type {
+  border-left: 1px solid black;
+}
+
+/*# sourceMappingURL=styles.module.css.map */
