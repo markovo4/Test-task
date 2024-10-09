@@ -1,52 +1,56 @@
-.container {
-
+.section {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1440px;
-  padding: 0 80px;
+  justify-content: center;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
 
-  .navContainer {
+  .container {
     display: flex;
-    justify-content: space-evenly;
-    width: 1027px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 80px;
 
-    .navLink {
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 21px;
-      letter-spacing: -0.03em;
-      text-align: left;
-      padding: 8px;
-    }
-
-    .linksContainer {
+    .navContainer {
       display: flex;
-      justify-content: space-between;
-      gap: 10px;
-    }
+      justify-content: space-evenly;
+      width: 1027px;
 
-    .buttonGroup {
-
-      .button, .button:last-of-type {
+      .navLink {
         font-size: 14px;
         font-weight: 600;
         line-height: 21px;
         letter-spacing: -0.03em;
         text-align: left;
         padding: 8px;
-        text-decoration: underline;
       }
 
-      .button:last-of-type {
-        border-left: 1px solid black;
+      .linksContainer {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
       }
 
+      .buttonGroup {
+        .button, .button:last-of-type {
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 21px;
+          letter-spacing: -0.03em;
+          text-align: left;
+          padding: 8px;
+          text-decoration: underline;
+        }
+
+        .button:last-of-type {
+          border-left: 1px solid black;
+        }
+
+      }
     }
-
-
   }
-
-
 }
+
 
