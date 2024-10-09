@@ -1,0 +1,70 @@
+.backColor {
+  background-image: linear-gradient(134.28deg, #F367A3 0%, #F0CBEB 35.88%, #AF8AF3 80.05%, #68D2E1 131.8%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  width: 416px;
+  height: 485px;
+  max-width: 560px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backColor .container {
+  display: flex;
+  flex-direction: column;
+  width: 413px;
+  height: 481px;
+  max-width: 558px;
+  padding: 26px;
+  justify-content: space-between;
+  border-radius: 24px;
+  background-color: white;
+}
+.backColor .container .title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.backColor .container .img {
+  /* Add styles if needed */
+}
+.backColor .container .description {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.backColor .container .button {
+  width: 135px;
+  height: 56px;
+  padding: 16px 24px;
+  gap: 10px;
+  border-radius: 16px;
+  background: #000000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease; /* Transition for background color */
+}
+.backColor .container .button:hover {
+  background-color: #4a4a4a; /* Greyish background color */
+}
+.backColor .container .button .buttonText {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+  transition: font-size 0.3s ease; /* Transition for font size */
+  position: relative;
+}
+.backColor .container .button .buttonText:hover {
+  font-size: 18px; /* Slightly increase font size */
+}
+
+/*# sourceMappingURL=styles.module.css.map */
