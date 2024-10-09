@@ -1,0 +1,28 @@
+.section {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  padding: 80px;
+  position: absolute;
+  top: 602px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.section .title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 48px;
+}
+.section .container {
+  width: 958px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/*# sourceMappingURL=styles.module.css.map */
