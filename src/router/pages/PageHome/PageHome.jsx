@@ -1,4 +1,5 @@
-import PageBaseTemplate from "../../templates/PageBaseTemplate/index.js";
+import React from "react";
+import PageBaseTemplate from "../../../pageTemplates/PageBaseTemplate/index.js";
 
 const PageHome = () => {
     return (

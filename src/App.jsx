@@ -1,8 +1,10 @@
-import './global.scss'
+import React from "react";
+import './global.css'
+import RouterDisplayPage from "./router/routes/index.js";
 
 function App() {
-    return(
-        <div>Hello World</div>
+    return (
+        <RouterDisplayPage/>
     )
 }
 
