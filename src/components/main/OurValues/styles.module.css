@@ -1,3 +1,28 @@
-
+.section {
+  margin: 0 auto;
+  width: 1440px;
+  margin-top: 1000px;
+  background-image: url("../../../assets/img/background2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+.section .title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 48px;
+}
+.section .container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-flow: row wrap;
+  gap: 48px;
+}
 
 /*# sourceMappingURL=styles.module.css.map */
