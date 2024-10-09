@@ -29,7 +29,7 @@ ValuesCard.propTypes = {
     title: PropTypes.string.isRequired,
     image: PropTypes.shape({
         path: PropTypes.string.isRequired,
-        alt: PropTypes.string, // Optional alt text
+        alt: PropTypes.string,
     }).isRequired,
     description: PropTypes.string.isRequired
 }

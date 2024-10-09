@@ -1,0 +1,37 @@
+.section {
+  background-image: url("../../../assets/img/Group 47225bg3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 680px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .buttonGroup {
+
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+
+      .button {
+        background-color: black;
+        border-radius: 50%;
+        padding: 10px;
+      }
+    }
+
+  }
+
+}
