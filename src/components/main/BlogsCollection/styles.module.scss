@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 680px;
-  display: flex;
+  //display: flex;
   align-items: center;
   justify-content: center;
 
@@ -14,23 +14,44 @@
 
     .container {
       display: flex;
-      justify-content: center;
+      flex-direction: row;
       gap: 25px;
     }
 
-    .buttonGroup {
+    .sliderItem {
+      margin: 0 100px;
+    }
 
+    .buttonGroup {
       display: flex;
       justify-content: space-between;
       width: 100%;
+    }
 
+    .button {
+      background-color: black;
+      border-radius: 50%;
+      padding: 10px;
+      border: none; /* Ensure there's no border */
+      cursor: pointer; /* Change cursor to pointer for better UX */
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-      .button {
-        background-color: black;
-        border-radius: 50%;
-        padding: 10px;
+      &:hover {
+        background-color: grey; /* Change background on hover */
       }
     }
+
+    .slick-arrow {
+      z-index: 1; /* Ensure arrows are above other elements */
+      width: 40px; /* Adjust the width */
+      height: 40px; /* Adjust the height */
+      display: flex; /* Ensure they are flex containers */
+      justify-content: center;
+      align-items: center;
+    }
+
 
   }
 
